@@ -2,7 +2,7 @@ import './App.scss'
 import Nav from './components/Nav'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { Evictorbook } from './components/PortfolioItem'
+import { Evictorbook, RoseCityResource } from './components/PortfolioItem'
 
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
       <Header />
       {/* <Footer /> */}
       <Evictorbook/>
+      <RoseCityResource />
     </>
   )
 }
