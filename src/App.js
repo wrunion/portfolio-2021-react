@@ -2,6 +2,8 @@ import './App.scss'
 import Nav from './components/Nav'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import { Evictorbook } from './components/PortfolioItem'
+
 
 const App = () => {
 
@@ -9,7 +11,8 @@ const App = () => {
     <>
       <Nav />
       <Header />
-      <Footer />
+      {/* <Footer /> */}
+      <Evictorbook/>
     </>
   )
 }

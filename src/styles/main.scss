@@ -26,11 +26,48 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   color: rgba(0,0,0,.87);
-  font-weight: bold;
 }
 
 footer a {
   margin-left: 0;
   margin-right: .5em;
   color: #2A00A2;
+}
+
+/* ----- Portfolio Items ------- */
+
+.project-div {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  margin-right: 250px;
+  margin-left: 2.5em;
+}
+
+.work-text {
+  max-width: 550px;
+  text-align: justify; 
+}
+
+.about-text {
+  margin-left: 2em;
+}
+
+.video-container {
+  margin-top: .35em;
+  margin-bottom: 1em;
+  border-radius: 7px;
+}
+
+/* General Styles */
+
+.mb-normal {
+  margin-bottom: 1.5em;
+}
+
+.mt-normal {
+  margin-top: 1.5em;
+}
+
+.mt-large {
+  margin-top: 3em;
 }
