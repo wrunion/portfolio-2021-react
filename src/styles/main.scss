@@ -39,8 +39,7 @@ footer a {
 .project-div {
   margin-top: 2.5em;
   margin-bottom: 2.5em;
-  margin-right: 250px;
-  margin-left: 2.5em;
+  margin-left: 5em;
 }
 
 .work-text {
@@ -58,6 +57,21 @@ footer a {
   border-radius: 7px;
 }
 
+/* ------- About --------- */
+
+.about-div {
+  display: flex; 
+  align-items: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  // margin-right: 250px;
+  max-width: 550px;
+}
+
+.about-text {
+  margin-left: 2em;
+}
+
 /* General Styles */
 
 .mb-normal {
@@ -70,4 +84,44 @@ footer a {
 
 .mt-large {
   margin-top: 3em;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+// test
+
+.banner-preview {
+  width: 100%; text-align: center; display: flex; justify-content: center; align-items: center; background: #E3E3D9; min-height: 3em;
+}
+
+.banner-teal {
+  background: #008a8f;
+  color: #2e3238;
+}
+
+.banner-default {
+  background: #85898e;
+  color: #2e3238;
+}
+
+.page {
+  display: flex; flex-direction: column; align-items: center; line-height: 1.5em; margin-top: 3vh;
+}
+
+.banner-info {
+  margin-top: 1.5em; font-size: 1.15em; color: #696969;
+}
+
+.form-container {
+  max-width: 850px; height: 50%; display: flex; flex-direction: column;
+}
+
+.container-content {
+  padding: 0 .75em;
+}
+
+.textarea-div {
+  margin-top: .75em; margin-bottom: .75em;
 }
